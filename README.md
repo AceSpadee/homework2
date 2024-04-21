@@ -2,7 +2,7 @@
 Peyton's Portfolio Webpage
 
 ## Link
-link to webpage
+(https://acespadee.github.io/homework2/)
 
 ## Description:
 first attempt at creating a portfolio
