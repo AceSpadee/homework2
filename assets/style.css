@@ -1,12 +1,14 @@
 :root {
-    --blue: #1f88bcd9;
+    --blue: #009feed9;
+    --darkblue: #010158;
 
 }
 
 * {
     box-sizing: border-box;
+    border-color: var(--blue);
     padding: 0;
-    margin: 0;
+    margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,8 +26,8 @@ p {
 }
 
 header {
-    padding: 0;
-    background-color: var(--blue);
+    padding: 10px;
+    background-color: var(--darkblue);
     color: white;
 }
 
@@ -64,6 +66,10 @@ main {
     margin-right: 10vw;
 }
 
+main article h2 {
+    color: var(--darkblue);
+}
+
 article h2 {
         font-size: 20px;
         color: var(--blue);
@@ -73,7 +79,8 @@ article h2 {
 
 main h2 {
     font-size: 20px;
-    color: var(--blue);
+    color: var(--darkblue);
+    text-align: center;
 }
 
 article p {
@@ -82,7 +89,7 @@ article p {
 
 figure {
     border-style: solid;
-    border-width: 1px;
+    border-width: 3px;
     border-radius: 10px;
     padding: 10px;
 }
@@ -116,11 +123,15 @@ article img {
     right: 20px;
 }
 
+ul li a {
+    color: var(--blue);
+}
+
 /* contact me */
 
 footer {
     padding: 20px;
-    background-color: var(--blue);
+    background-color: var(--darkblue);
     color: white;
 }
 
